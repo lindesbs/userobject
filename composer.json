@@ -1,0 +1,34 @@
+{
+    "name": "lindesbs/userobject",
+    "description": "A symfony library for handling vCard 4.0 format",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "lindesbs\\userobject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stefan Lindecke",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "phpstan/phpstan": "^1.0",
+        "squizlabs/php_codesniffer": "^3.0",
+        "rector/rector": "^1.2.8"
+    },
+    "scripts": {
+        "test": "phpunit",
+        "phpstan": "phpstan analyse src tests",
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
