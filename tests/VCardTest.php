@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace lindesbs\userobject\Tests;
 
-use PHPUnit\Framework\TestCase;
-use lindesbs\userobject\DTO\VCard\VCard;
 use lindesbs\userobject\DTO\VCard\Enum\EmailType;
 use lindesbs\userobject\DTO\VCard\Enum\PhoneType;
+use lindesbs\userobject\DTO\VCard\VCard;
+use PHPUnit\Framework\TestCase;
 
 class VCardTest extends TestCase
 {
